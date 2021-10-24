@@ -1,0 +1,28 @@
+/* sidebar 120px de largura e a cor do fundo #222*/
+.w3-sidebar {
+    width: 120px;
+    background: #222;
+}
+
+.w3-row-padding img 
+    {margin-bottom: 12px;}
+
+/* Define Fonte para todas as tags listadas abaixo*/
+body,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Montserrap", sans-serif
+}
+#main {
+    margin-left: 120px;
+}
+
+/*Esse código faz com que quando o site for exibido em dispositivos com tela de no máximo 600px de
+largura, o elemento com o id “#main” define sua margem esquerda com o valor zero.*/
+@media only screen and (max-width:600px){
+    #main {margin-left:0}
+}

@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(34, 53, 53);
+}
+
+
+.Principal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(37, 206, 94);
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 0.6em;
+    color: rgb(37, 206, 94);
+}
+
+
+.coluna1, .coluna2, .coluna3, .coluna4, .coluna5 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1%;
+}
+
+
+.coluna1 {
+    flex-grow: 5;
+}
+
+
+.coluna2 {
+    flex-grow: 5;
+}
+
+
+.coluna3 {
+    flex-grow: 5;
+}
+
+
+.coluna4 {
+    flex-grow: 5;
+}
+
+
+.coluna5 {
+    flex-grow: 5;
+}
+
+
+img {
+    width: 100%;
+    height: 19%;
+    margin: 1.5%;
+    margin-top: 2%;
+}
+
+
+a:link, a:visited {
+    color: rgb(37, 179, 44);
+    margin: 1.5em;
+}
