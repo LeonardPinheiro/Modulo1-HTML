@@ -1,0 +1,27 @@
+/*Vamos Entender*/
+.container {
+    width: 100%; /*Determina a largura da div principal, ela ocupaa toda a tela principal*/
+    display: flex; /*Indica que esta classe se tornara flexivel*/
+    flex-direction: row; /* indicamos como os elementos se organizarão e, finalmente, ao aplicar o valor row, estes elementos serão organizados de forma horizontal.*/
+    
+}
+
+.esquerda,.centro, .direita {
+    font-size: 1.5em;
+    text-align: center;
+}
+.esquerda {
+    flex-grow: 1;
+    background: #ff0000;
+}
+
+.centro {
+    flex-grow: 2;
+    background: #00ff00;
+}
+
+.direita {
+        flex-grow: 1;
+    background:#0000ff;
+    
+}
